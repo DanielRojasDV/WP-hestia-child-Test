@@ -240,9 +240,9 @@ function get_data_api3(){
 
 
 
-	// echo 'Respuesta:<pre>';
-	// print_r( $user_respuesta );
-	// echo '</pre>';
+	echo 'Respuesta:<pre>';
+	print_r( $user_respuesta );
+	echo '</pre>';
 
 	$body = wp_remote_retrieve_body($response);
 
@@ -263,6 +263,7 @@ function get_data_api3(){
 				</table>
 				<br>
 				<button>Probar Login</button>				
+				<button>Se ha agregado un nuevo Boton</button>				
 				';
 
 	if ( $data ){
