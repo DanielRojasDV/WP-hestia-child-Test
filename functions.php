@@ -86,7 +86,9 @@ function get_data_api(){
 
 	$data = json_decode($body);
 
-	$template = '<table class="tabla-resultados">
+	$template = '
+ 		<h2>Listado # 1 Switch G</h2>
+ 		<table class="tabla-resultados">
                     <thead>
 					<tr>
 						<th>id</th>
